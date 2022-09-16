@@ -1,0 +1,11 @@
+.login_container {
+    width: 481px;
+    height: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: turquoise;
+    padding: 18px 17px;
+    border-radius: 15px;
+
+}
