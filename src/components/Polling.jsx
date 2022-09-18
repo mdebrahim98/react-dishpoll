@@ -151,12 +151,12 @@ export default function Polling() {
         dataFetch()
 
 
-        // let first = localStorage.getItem('rank1')
-        // setrank1(first)
-        // let second = localStorage.getItem('rank2')
-        // setrank2(second)
-        // let third = localStorage.getItem('rank3')
-        // setrank3(third)
+        let first = localStorage.getItem('rank1')
+        setrank1(+(first))
+        let second = localStorage.getItem('rank2')
+        setrank2(+(second))
+        let third = localStorage.getItem('rank3')
+        setrank3(+(third))
 
 
 
